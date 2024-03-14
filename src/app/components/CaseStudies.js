@@ -10,11 +10,11 @@ const CaseStudies = () => {
   };
 
   return (
-  <div className="bg-black w-full flex flex-col">
+  <div className="bg-[#0003] w-full flex flex-col">
 
     <div className='flex flex-col'>
 
-      <div className="text-[27px] text-white flex flex-col font-bold text-center mt-8">
+      <div className="text-[32px] font-pockota text-white flex flex-col font-bold text-center mt-8">
         Case Studies & Blogs
       </div>
       <div className='flex items-center justify-center flex-col'>
