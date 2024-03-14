@@ -29,7 +29,7 @@ export default function Home() {
       <div className="bg-[#0003] flex items-center justify-center ">
         <div className="flex flex-col text-white w-[60%] ">
           <p className="text-[32px] font-pockota my-[2rem] text-center ">My Journey </p>
-          <p className="text-[22px] font-sf_pro_display font-semibold my-2 "> Farmer to Pharma CTO</p>
+          <p className="text-[22px] font-sf_pro_display font-semibold my-2 ">👨‍🌾 Farmer to Pharma CTO</p>
           <p className="text-[18px] font-inter my-2">
             My journey began in a tiny sweet green little village in Southern India, aiming to farm. But life steered me towards engineering, and eventually, I became the CTO at Inpharmd. Grateful for this unexpected path that led me to where I am today.
           </p>
@@ -41,29 +41,30 @@ export default function Home() {
           </p>
 
           <p className="text-[22px] font-sf_pro_display font-semibold my-2">
-            Humble beginnings from zeros to billions
+            💰Humble beginnings from zeros to billions
           </p>
           <p className="text-[18px] font-inter my-2">
             In 2018, I co-founded Inpharmd. With seed funding of $8.05M, we quickly reached Series A, boasting a revenue between $4-8M. We now have a vibrant community of over 50k users, including 10k active daily users.
           </p>
-
-          <p className="text-[22px] font-sf_pro_display font-semibold my-2">
-            Investor onboard
-          </p>
-          <p className="text-[18px] font-inter my-2">
-            Our recent funding round was backed by some of the most prestigious investors - 645 Ventures, Atlanta Ventures, Y Combinator, & Qlarant Capital
-          </p>
-
+          <div className = ''>
           <div className="flex items-center justify-center rounded-xl bg-gradient-to-b from-[#252427] 
           to-[#ececf0] bg-opacity-50 h-[250px] w-full">
-          <div></div>
-          
+
+            <p className="text-[22px] font-sf_pro_display font-semibold my-2">
+              👨‍💼 Investor onboard 
+            </p>
+            <p className="text-[18px] font-inter my-2">
+              Our recent funding round was backed by some of the most prestigious investors - 645 Ventures, Atlanta Ventures, Y Combinator, & Qlarant Capital
+            </p>
           </div>
-
-
+           </div>
+          
+        
+          
+       
 
           <p className="text-[22px] font-sf_pro_display font-semibold my-2">
-            Inpharmd CTO
+            👨‍💼 Inpharmd CTO
           </p>
           <p className="text-[18px] font-inter my-2">
             As CTO and Co-founder of Inpharmd, I drive technology development, harnessing AI for enhanced patient care and healthcare provider support. I lead web and AI initiatives, processing 30M medical papers, shaping industry advancements.
