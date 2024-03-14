@@ -179,7 +179,38 @@ const CaseStudies = () => {
 
       </div>
 
-      <div className='grid grid-cols-3 gap-4 w-[336px] md:w-[1170px] h-[50px] p-[4rem] text-[15px] justify-center items-center text-white border-t border-gray-200 my-2 '>
+      <div className="flex w-full h-[600px] items-center justify-center text-white p-8"
+        style={{
+          backgroundImage: "url('/mountain.png')"
+        }}>
+        <div className='flex flex-col'>
+          <div className='flex items-center'>
+            <Image src='/name.png' alt="name_img" width={90} height={60} className="rounded-full"/>
+          </div>
+          <div className=''>
+            <p className="text-[25px] w-1/2 font-pockota mb-2 justify-center">
+              Busy building tools for users Don’t be a boilerplate programmer.
+              Instead, build tools for users and other programmers.
+              Take historical note of textile and steel industries:
+              do you want to build machines and tools, or do you want to operate those machines.
+            </p>
+            <p className="text-[20px] font-pockota mb-2 item-end">
+              — Ras Bodik at the start of his compilers course
+            </p>
+          </div>
+          <div className='mt-12'>
+            <p className="text-center font-inter text-[20px]">
+              The top of one mountain is always the bottom of another.
+            </p>
+            <p className="text-center font-inter text-[15px]">
+              — Marianne Williamson
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div className='grid grid-cols-3 gap-4 w-[336px] md:w-[1170px] h-[50px] p-[4rem] text-[15px] justify-center items-center text-white border-t border-gray-200 my-2 mt-4'>
 
         <div className=''>
           <Link href='https://twitter.com/tulasirao'>
