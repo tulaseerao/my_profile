@@ -54,7 +54,7 @@ export default function Home() {
               My journey spans tech roles in India and Corporate America, leading to co-founding Inpharmd.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
-              Built an AI-driven platform transforms healthcare information management, offering precise responses to healthcare professionals. With evidence-based insights, we're making waves in the sector by fostering innovation and driving efficiency like never before, providing them with succinct summaries of literature.
+              Built an AI-driven platform transforms healthcare information management, offering precise responses to healthcare professionals. With evidence-based insights, we&apos;re making waves in the sector by fostering innovation and driving efficiency like never before, providing them with succinct summaries of literature.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function Home() {
               As CTO and Co-founder of Inpharmd, I drive technology development, harnessing AI for enhanced patient care and healthcare provider support. I lead web and AI initiatives, processing 30M medical papers, shaping industry advancements.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter mb-6">
-              My focus spans technical strategy, team leadership, and product delivery, ensuring top-notch solutions. Committed to healthcare and AI evolution, I aim to sustain impactful innovation. Enthusiastic about our team and Inpharmd's vision, I'm eager to propel positive change in healthcare through cutting-edge approaches.
+              My focus spans technical strategy, team leadership, and product delivery, ensuring top-notch solutions. Committed to healthcare and AI evolution, I aim to sustain impactful innovation. Enthusiastic about our team and Inpharmd&apos;s vision, I&apos;m eager to propel positive change in healthcare through cutting-edge approaches.
             </p>
           </div>
 
@@ -129,7 +129,7 @@ export default function Home() {
         </p>
 
         <p className="text-[14px] md:text-[20px] font-inter mb-[2rem]">
-          “My co-founder Tulasee led the way in AI advancements, helping us transcribe PDFs faster than our pharmacists, though still refining accuracy. With 5,000 study abstracts as our foundation, we've fine-tuned algorithms to match our abstracts. Testing at 94% against humans, we aim for 100% accuracy in medical data reliability. Introducing Sherlock, our answer to missed opportunities like Watson. Partnering with ASHP, we're integrating 1,300 vetted drug monographs, enabling Sherlock to provide precise answers at the point of care. Excited to revolutionize healthcare decisions with seamless AI integration”
+          “My co-founder Tulasee led the way in AI advancements, helping us transcribe PDFs faster than our pharmacists, though still refining accuracy. With 5,000 study abstracts as our foundation, we&apos;ve fine-tuned algorithms to match our abstracts. Testing at 94% against humans, we aim for 100% accuracy in medical data reliability. Introducing Sherlock, our answer to missed opportunities like Watson. Partnering with ASHP, we&apos;re integrating 1,300 vetted drug monographs, enabling Sherlock to provide precise answers at the point of care. Excited to revolutionize healthcare decisions with seamless AI integration”
         </p>
 
         {/* Video */}
