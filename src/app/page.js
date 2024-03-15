@@ -34,26 +34,26 @@ export default function Home() {
             YC W21
           </span>
         </p>
-        <p className="text-center font-inter text-[16px] md:text-[20px]">
+        <p className="text-center font-inter text-[14px] md:text-[20px]">
           A real AI Specialist(wrote ~10k lines of AI code) | Raised $8.05 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM | Advisor to TestGrid.io
         </p>
       </div>
 
-      <div className="bg-[#0003] flex items-center justify-center ">
-        <div className="flex flex-col text-white w-[60%] ">
+      <div className="bg-[#0003] p-4 flex items-center justify-center w-full ">
+        <div className="flex flex-col text-white w-full md:w-[60%]">
           <p className="text-[28px] md:text-[32px] font-pockota my-[2rem] text-center ">My Journey </p>
 
           <div data-aos="fade-up">
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               👨‍🌾 Farmer to Pharma CTO
             </p>
-            <p className="text-[16px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] md:text-[18px] font-inter my-4">
               My journey began in a tiny sweet green little village in Southern India, aiming to farm. But life steered me towards engineering, and eventually, I became the CTO at Inpharmd. Grateful for this unexpected path that led me to where I am today.
             </p>
-            <p className="text-[16px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] md:text-[18px] font-inter my-4">
               My journey spans tech roles in India and Corporate America, leading to co-founding Inpharmd.
             </p>
-            <p className="text-[16px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] md:text-[18px] font-inter my-4">
               Built an AI-driven platform transforms healthcare information management, offering precise responses to healthcare professionals. With evidence-based insights, we're making waves in the sector by fostering innovation and driving efficiency like never before, providing them with succinct summaries of literature.
             </p>
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               💰Humble beginnings from zeros to billions
             </p>
-            <p className="text-[16px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] md:text-[18px] font-inter my-4">
               In 2018, I co-founded Inpharmd. With seed funding of $8.05M, we quickly reached Series A, boasting a revenue between $4-8M. We now have a vibrant community of over 50k users, including 10k active daily users.
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function Home() {
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               👨‍💼 Investor onboard
             </p>
-            <p className="text-[16px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] md:text-[18px] font-inter my-4">
               Our recent funding round was backed by some of the most prestigious investors - 645 Ventures, Atlanta Ventures, Y Combinator, & Qlarant Capital
             </p>
           </div>
@@ -106,10 +106,10 @@ export default function Home() {
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-6 ">
               👨‍💼 Inpharmd CTO
             </p>
-            <p className="text-[16px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] md:text-[18px] font-inter my-4">
               As CTO and Co-founder of Inpharmd, I drive technology development, harnessing AI for enhanced patient care and healthcare provider support. I lead web and AI initiatives, processing 30M medical papers, shaping industry advancements.
             </p>
-            <p className="text-[16px] md:text-[18px] font-inter mb-6">
+            <p className="text-[14px] md:text-[18px] font-inter mb-6">
               My focus spans technical strategy, team leadership, and product delivery, ensuring top-notch solutions. Committed to healthcare and AI evolution, I aim to sustain impactful innovation. Enthusiastic about our team and Inpharmd's vision, I'm eager to propel positive change in healthcare through cutting-edge approaches.
             </p>
           </div>
@@ -124,18 +124,16 @@ export default function Home() {
         }}>
 
         <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" >About InpharmD</span>
-        <p className="text-[16px] md:text-[28px] font-inter my-[2rem]" >
+        <p className="text-[14px] md:text-[20px] font-inter my-[2rem]" >
           <span className="text-orange-600"> InpharmD </span>  answers complex questions about drugs by using a combination of generative AI and a clinical pharmacist. Clinicians can ask questions about whether a drug is right to give a patient, dosage and side effect questions, and what to do if a drug is not on hand. Hospital committees (P&T) that decide which drugs to use can generate reports on cost-effectiveness of drugs.
         </p>
 
-        <p className="text-[16px] md:text-[28px] font-inter mb-[2rem]">
+        <p className="text-[14px] md:text-[20px] font-inter mb-[2rem]">
           “My co-founder Tulasee led the way in AI advancements, helping us transcribe PDFs faster than our pharmacists, though still refining accuracy. With 5,000 study abstracts as our foundation, we've fine-tuned algorithms to match our abstracts. Testing at 94% against humans, we aim for 100% accuracy in medical data reliability. Introducing Sherlock, our answer to missed opportunities like Watson. Partnering with ASHP, we're integrating 1,300 vetted drug monographs, enabling Sherlock to provide precise answers at the point of care. Excited to revolutionize healthcare decisions with seamless AI integration”
         </p>
 
         {/* Video */}
-        <div
-          className="flex  items-center justify-center mx-auto my-[2rem] "
-        >
+        <div className="flex  items-center justify-center mx-auto my-[2rem] ">
           <video
             className="xl:h-[25rem] 2xl:h-[25rem] rounded-xl"
             preload="none"
@@ -148,7 +146,7 @@ export default function Home() {
           </video>
         </div>
 
-        <button className="font-sf_pro_display border-[4px] font-medium text-[12px] md:text-[24px] bg-white text-black rounded-xl px-4 py-2 shadow-xl">
+        <button className="font-sf_pro_display border-[4px] font-medium text-[12px] lg:text-[24px] bg-white text-black rounded-xl px-4 py-2 shadow-xl">
           Patented AI Algorithm
         </button>
 
