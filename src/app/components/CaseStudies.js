@@ -5,6 +5,16 @@ import Link from 'next/link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import "aos/dist/aos.css";
+import inpharmd_ai from '../../../public/inpharmd_ai.png'
+import aws_logo from '../../../public/aws_logo.png'
+import drugs_ai from '../../../public/drugs_ai.png'
+import pinecone from '../../../public/pinecone.png'
+import X_logo from '../../../public/X_logo.png'
+import name_img from '../../../public/name.png' 
+import pat_harper from '../../../public/pat_harper.png'
+import ashish from '../../../public/ashish.png'
+import paul_brobson from '../../../public/paul_brobson.png'
+
 
 const CaseStudies = () => {
 
@@ -23,11 +33,10 @@ const CaseStudies = () => {
 
             {/* card 1 */}
             <div className='flex flex-col h-[24rem] w-[300px] lg:w-[380px] lg:h-[444px] 
-            p-[1rem] rounded-2xl justify-center items-center mb-[3rem] bg-white'
+            p-[1rem] rounded-2xl justify-center mb-[3rem] bg-white'
               data-aos="fade-up">
 
-              <Image src="/inpharmd_ai.png" alt='inpharamd_ai_img' className='rounded-xl' width={600}
-                height={600} style={{ width: 'auto' }} />
+              <Image src={inpharmd_ai} alt='inpharamd_ai_img' className='rounded-3xl px-[10px] h-[200px]' />
 
               <div className=' p-[0.5rem] rounded-xl mx-1 '>
                 <div className='text-[16px] text-black font-semibold font-sf_pro_display'>
@@ -52,11 +61,10 @@ const CaseStudies = () => {
 
             {/* card 2 */}
             <div className='flex flex-col w-[300px] h-[24rem] lg:w-[380px] lg:h-[444px] 
-            p-[1rem]  rounded-2xl justify-center items-center mb-[3rem] bg-white'
+            p-[1rem]  rounded-2xl justify-center mb-[3rem] bg-white'
               data-aos="fade-up">
 
-              <Image src="/aws_logo.png" alt='aws img' className='rounded-xl' width={200}
-                height={200} style={{ width: 'auto' }} />
+              <Image src={aws_logo} alt='aws img' className='rounded-3xl px-[10px] h-[200px]' />
 
               <div className=' p-[0.5rem] rounded-xl mx-1 '>
                 <div className='text-[16px] text-black flex font-semibold font-sf_pro_display'>
@@ -78,11 +86,10 @@ const CaseStudies = () => {
 
             {/* card 3 */}
             <div className='flex flex-col w-[300px] h-[24rem] lg:w-[380px] lg:h-[444px] 
-            p-[1rem] rounded-2xl justify-center items-center mb-[3rem] bg-white'
+            p-[1rem] rounded-2xl justify-center mb-[3rem] bg-white'
               data-aos="fade-up">
 
-              <Image src="/drugs_ai.png" alt='drugs_ai_img' className='rounded-xl' width={600}
-                height={600} style={{ width: 'auto', height: 'auto' }} />
+              <Image src={drugs_ai} alt='drugs_ai_img' className='rounded-3xl px-[10px] h-[200px]' />
 
               <div className=' p-[0.5rem] rounded-xl mx-1 '>
                 <div className='text-[16px] text-black font-semibold font-sf_pro_display'>
@@ -105,11 +112,10 @@ const CaseStudies = () => {
 
             {/* card 4 */}
             <div className='flex flex-col w-[300px] lg:w-[380px] lg:h-[444px] 
-            p-[1rem] h-[24rem] rounded-2xl justify-center items-center mb-[3rem] bg-white'
+            p-[1rem] h-[24rem] rounded-2xl justify-center mb-[3rem] bg-white'
               data-aos="fade-up">
 
-              <Image src="/pinecone.png" alt='pinecone_img' className='rounded-xl' width={600}
-                height={600} style={{ width: 'auto', height: 'auto' }} />
+              <Image src={pinecone} alt='pinecone_img' className='rounded-3xl px-[10px] h-[200px]' />
 
               <div className=' p-[0.5rem] rounded-xl mx-1 '>
                 <div className='text-[16px] text-black font-semibold font-sf_pro_display'>
@@ -133,12 +139,11 @@ const CaseStudies = () => {
 
           </div>
         </div>
-
       </div>
 
       <div className='mt-8 flex items-center w-full justify-center flex-col'>
 
-        <div className='grid grid-rows-2 w-[336px] md:w-[1170px] p-[1rem]'>
+        <div className='grid grid-rows-2 w-[336px] xl:w-[1170px] p-[1rem]'>
           <div className="text-[12px] font-medium text-[rgb(81,124,101)] text-center"
             data-aos="fade-in">
             TESTIMONIAL
@@ -150,9 +155,9 @@ const CaseStudies = () => {
         </div>
 
         {/* 3 cards */}
-        <div className='grid grid-cols-1 lg:grid-cols-3 w-[336px] lg:w-[1170px] gap-4 p-4 m-6 text-white '>
+        <div className='grid grid-cols-1 lg:grid-cols-3 w-[336px] lg:w-[1130px] gap-4 p-4 md:p-0 m-6 md:mx-6 md:mb-[5rem] md:mt-6 text-white '>
 
-          <div className='flex flex-col h-[27rem] w-full md:w-[336px] p-4 rounded-2xl justify-center items-center bg-gray-800 border border-white border-opacity-20 text-white'
+          <div className='flex flex-col h-[27rem] w-full p-4 rounded-2xl justify-center  bg-gray-800 border border-white border-opacity-20 text-white'
             data-aos="fade-up">
             <div className=' p-[0.5rem] rounded-xl text-[18px] flex items-center mt-6'>
               &quot;Tulasee Rao Chintha is an exceptional AI specialist whose innovative work and visionary leadership have made a significant
@@ -160,7 +165,7 @@ const CaseStudies = () => {
             </div>
 
             <div className='mb-2 px-2 py-2 mt-4 text-white rounded-xl flex items-center'>
-              <Image src="/ashish.png" alt='inpharamd ai img' className='rounded-full m-2' width={70} height={70} />
+              <Image src={ashish} alt='inpharamd ai img' className='rounded-full m-2 w-[70px] h-[70px]'/>
               <div className='flex flex-col ml-2 text-left'>
                 <span className='font-sf_pro_display text-[16px]'>Ashish Advani</span>
                 <span className='font-sf_pro_display text-[20px]'>Founder, InpharmD</span>
@@ -169,7 +174,7 @@ const CaseStudies = () => {
 
           </div>
 
-          <div className='flex flex-col h-[27rem] w-full md:w-[336px] p-4 rounded-2xl justify-center items-center bg-gray-800 border border-white border-opacity-20 text-white'
+          <div className='flex flex-col h-[27rem] w-full p-4 rounded-2xl justify-center  bg-gray-800 border border-white border-opacity-20 text-white'
             data-aos="fade-up">
             <div className=' p-[0.5rem] rounded-xl text-[18px] flex items-center mt-6'>
               &quot;Tulasee has been part of my organization for several years and has shown himself to be an exceptional contributor to our development organization.
@@ -177,7 +182,7 @@ const CaseStudies = () => {
             </div>
 
             <div className='mb-2 px-2 py-2 mt-4 text-white rounded-xl flex items-center'>
-              <Image src="/pat_harper.png" alt='inpharamd ai img' className='rounded-full m-2' width={70} height={70} />
+              <Image src={pat_harper} alt='inpharamd ai img' className='rounded-full m-2 w-[70px] h-[70px]'/>
               <div className='flex flex-col ml-2 text-left'>
                 <span className='font-sf_pro_display text-[16px]'>Pat Harper</span>
                 <span className='font-sf_pro_display text-[20px]'>CTO, Catalis</span>
@@ -186,7 +191,7 @@ const CaseStudies = () => {
 
           </div>
 
-          <div className='flex flex-col h-[27rem] w-full md:w-[336px] p-4 rounded-2xl justify-center items-center bg-gray-800 border border-white border-opacity-20 text-white'
+          <div className='flex flex-col h-[27rem] w-full p-4 rounded-2xl justify-center  bg-gray-800 border border-white border-opacity-20 text-white'
             data-aos="fade-up">
             <div className=' p-[0.5rem] rounded-xl text-[18px] items-center mt-6'>
               Tulasee is a highly intelligent and competent programmer/developer. He is able to work in complex and results-driven cultures and his attention to each and every
@@ -195,7 +200,7 @@ const CaseStudies = () => {
             </div>
 
             <div className='mb-2 px-2 py-2 mt-4 text-white rounded-xl flex items-center'>
-              <Image src="/paul_brobson.png" alt='inpharamd ai img' className='rounded-full m-2' width={70} height={70} />
+              <Image src={paul_brobson} alt='paul_brobson img' className='rounded-full m-2 w-[70px] h-[70px]'/>
               <div className='flex flex-col ml-2 text-left'>
                 <span className='font-sf_pro_display text-[16px]'>Paul Brobson</span>
                 <span className='font-sf_pro_display text-[20px]'>Founder, Trusted Sale, Inc.</span>
@@ -208,7 +213,7 @@ const CaseStudies = () => {
 
 
         {/* image with quote */}
-        <div className="flex w-fit h-[80vh] lg:w-[1170px] m-4 lg:h-[832px] md:bg-cover items-center justify-center rounded-2xl text-white p-8"
+        <div className="flex w-fit h-[80vh] lg:w-[1130px] lg:h-[832px] md:bg-cover items-center justify-center rounded-2xl text-white p-4"
           data-aos="fade-up"
           style={{
             backgroundImage: "url('/mountain.png')",
@@ -218,8 +223,7 @@ const CaseStudies = () => {
           }}>
           <div className='flex flex-col'>
             <div className='flex items-center m-4'>
-              <Image src='/name.png' alt="name_img" width={200} height={100} className="rounded-full" 
-              style={{ width: 'auto' }} />
+              <Image src={name_img} alt="name_img" className="rounded-full w-[200px] h-[100px]"/>
             </div>
             <div className='mt-8 lg:mt-28'>
               <p className="text-[14px] lg:text-[25px] font-bold w-1/2 font-pockota mb-2 justify-center">
@@ -232,7 +236,7 @@ const CaseStudies = () => {
                 — Ras Bodik at the start of his compilers course
               </p>
             </div>
-            <div className='mt-6 lg:mt-12'>
+            <div className='mt-2 lg:mt-12'>
               <p className="text-center font-inter font-bold text-[14px] lg:text-[20px]">
                 The top of one mountain is always the bottom of another.
               </p>
@@ -248,25 +252,25 @@ const CaseStudies = () => {
       <div className='grid grid-cols-3 items-center justify-center md:mx-[17%] md:my-[4%] gap-4 py-[1rem] md:pl-[10%]
         text-[15px] text-white border-t border-gray-200'>
 
-          <Link href='https://twitter.com/tulasirao'>
-            <div className='flex ml-[2rem]'>
-              <Image src="/X_logo.png" alt='tulasee_X' className='text-[#989296] relative' width={16} height={16} style={{ width: 'auto' }} />
-            </div>
-          </Link>
+        <Link href='https://twitter.com/tulasirao'>
+          <div className='flex ml-[2rem]'>
+            <Image src={X_logo} alt='tulasee_X' className='text-[#989296] relative w-[16px] h-[16px]' />
+          </div>
+        </Link>
 
-          <Link href='https://www.linkedin.com/in/tulaseeraochintha'>
-            <div className='flex'>
-              <LinkedInIcon className='text-[#989296]' />
-              <span className='ml-2'>Linkedin</span>
-            </div>
-          </Link>
+        <Link href='https://www.linkedin.com/in/tulaseeraochintha'>
+          <div className='flex'>
+            <LinkedInIcon className='text-[#989296]' />
+            <span className='ml-2'>Linkedin</span>
+          </div>
+        </Link>
 
-          <Link href='https://github.com/tulaseerao'>
-            <div className='flex'>
-              <GitHubIcon className='text-[#989296]' />
-              <span className='ml-2'>GitHub</span>
-            </div>
-          </Link>
+        <Link href='https://github.com/tulaseerao'>
+          <div className='flex'>
+            <GitHubIcon className='text-[#989296]' />
+            <span className='ml-2'>GitHub</span>
+          </div>
+        </Link>
 
       </div>
 

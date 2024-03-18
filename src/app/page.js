@@ -4,7 +4,12 @@ import CaseStudies from "./components/CaseStudies";
 import Image from 'next/image';
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import sir from '../../public/tulasee_sir_img.jpg';
+import logo from '../../public/yc_logo.png';
+import img from '../../public/645.png';
+import atl from '../../public/atl.png';
+import qlarant from '../../public/qlarant.png';
+ 
 export default function Home() {
 
   useEffect(() => {
@@ -22,7 +27,7 @@ export default function Home() {
         style={{
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
         }}>
-        <Image src='/tulasee_sir_img.jpg' alt="img" width={90} height={90} className="rounded-full bg-slate-800" data-aos="fade-in" style={{ width: 'auto', height: 'auto' }} />
+        <Image src={sir} alt="img" className="rounded-full h-[90px] w-[90px] bg-slate-800" data-aos="fade-in" />
         <p className="font-pockota md:text-[32px] text-[28px] my-2" data-aos="fade-out">Tulasee Rao Chintha</p>
         <p className="text-[20px] font-pockota mb-[20px]" data-aos="fade-in">
           <span>
@@ -38,8 +43,8 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="bg-[#0003] p-4 flex items-center justify-center w-full ">
-        <div className="flex flex-col text-white w-full md:w-[60%] justify-center items-center">
+      <div className="bg-[#0003] p-4 flex items-center justify-center ">
+        <div className="flex flex-col text-white w-full md:w-[60%] 2xl:max-w-[1280] justify-center items-center">
           <p className="text-[28px] md:text-[32px] font-pockota my-[2rem] text-center" data-aos="fade-in">My Journey </p>
 
           <div data-aos="fade-up" className="w-[80%] md:w-full">
@@ -81,22 +86,22 @@ export default function Home() {
 
             <a href="https://www.ycombinator.com/companies/inpharmd" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
-              <Image src='/yc_logo.png' alt="img" width={50} height={50} className="rounded-full bg-slate-800" style={{ width: 'auto', height: 'auto' }} />
+              <Image src={logo} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
             </a>
 
             <a href="https://645ventures.com/databases/portfolio/inpharmd" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
-              <Image src='/645.png' alt="img" width={50} height={50} className="rounded-full bg-slate-800" style={{ width: 'auto', height: 'auto' }} />
+              <Image src={img } alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
             </a>
 
             <a href="https://www.atlantaventures.com/news/why-we-invested-in-inpharmd" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
-              <Image src='/atl.png' alt="img" width={50} height={50} className="rounded-full bg-slate-800" style={{ width: 'auto', height: 'auto' }} />
+              <Image src={atl} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800"/>
             </a>
 
             <a href="https://www.qlarant.com/about/news/qlarant-capital-becomes-investor-in-inpharmd/" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
-              <Image src='/qlarant.png' alt="img" width={50} height={50} className="rounded-full bg-slate-800" style={{ width: 'auto', height: 'auto' }} />
+              <Image src={qlarant} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800"/>
             </a>
 
           </div>
@@ -131,9 +136,9 @@ export default function Home() {
         </p>
 
         {/* Video */}
-        <div className="flex items-center justify-center mx-auto my-[2rem]" data-aos="fade-out">
+        <div className="flex items-center bg-[rgb(227,247,248)] rounded-xl justify-center mx-auto my-[2rem]" data-aos="fade-out">
           <video
-            className="xl:h-[25rem] 2xl:h-[25rem] rounded-3xl"
+            className="xl:h-[25rem] 2xl:h-[25rem] rounded-2xl"
             preload="none"
             autoPlay
             loop
