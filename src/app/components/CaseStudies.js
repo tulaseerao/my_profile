@@ -9,11 +9,11 @@ import "aos/dist/aos.css";
 const CaseStudies = () => {
 
   return (
-    <div className="bg-gradient-to-r from-black-500 to-gray-600 w-full flex flex-col">
+    <div className="bg-gradient-to-r from-black-500 to-gray-600 w-full mt-[4rem] flex flex-col">
 
       <div className='flex w-full flex-col items-center justify-center'>
 
-        <div className="text-[28px] text-white font-pockota m-[4rem]" data-aos="fade-up">
+        <div className="text-[28px] text-white font-bold font-pockota m-[4rem]" data-aos="fade-in">
           Case Studies & Blogs
         </div>
 
@@ -140,11 +140,11 @@ const CaseStudies = () => {
 
         <div className='grid grid-rows-2 w-[336px] md:w-[1170px] p-[1rem]'>
           <div className="text-[12px] font-medium text-[rgb(81,124,101)] text-center"
-            data-aos="fade-up">
+            data-aos="fade-in">
             TESTIMONIAL
           </div>
           <div className="text-[28px] text-white text-center font-pockota font-bold"
-            data-aos="fade-up">
+            data-aos="fade-in">
             People loves my work
           </div>
         </div>
@@ -208,7 +208,8 @@ const CaseStudies = () => {
 
 
         {/* image with quote */}
-        <div className="flex w-fit h-[80vh] lg:w-[1170px] lg:h-[832px] md:bg-cover items-center justify-center rounded-2xl text-white p-8" data-aos="fade-up"
+        <div className="flex w-fit h-[80vh] lg:w-[1170px] m-4 lg:h-[832px] md:bg-cover items-center justify-center rounded-2xl text-white p-8"
+          data-aos="fade-up"
           style={{
             backgroundImage: "url('/mountain.png')",
             backgroundSize: "cover",
@@ -242,14 +243,14 @@ const CaseStudies = () => {
           </div>
         </div>
 
+      </div>
 
-        <div className='flex gap-4 px-2 py-[1rem] text-[15px] text-white 
-        border-t border-gray-200 my-[2rem]'>
+      <div className='grid grid-cols-3 items-center justify-center md:mx-[17%] md:my-[4%] gap-4 py-[1rem] md:pl-[10%]
+        text-[15px] text-white border-t border-gray-200'>
 
           <Link href='https://twitter.com/tulasirao'>
-            <div className='flex'>
-              <Image src="/X_logo.png" alt='tulasee_X' className='text-[#989296]' width={20} height={20} style={{ width: 'auto' }} />
-              <span className='ml-2'> X </span>
+            <div className='flex ml-[2rem]'>
+              <Image src="/X_logo.png" alt='tulasee_X' className='text-[#989296] relative' width={16} height={16} style={{ width: 'auto' }} />
             </div>
           </Link>
 
@@ -266,8 +267,6 @@ const CaseStudies = () => {
               <span className='ml-2'>GitHub</span>
             </div>
           </Link>
-
-        </div>
 
       </div>
 

@@ -18,14 +18,13 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center bg-[#151718] cursor-default">
 
-      <div className="flex flex-col w-full md:w-[60%] items-center justify-center text-white p-[75px]"
-        data-aos="fade-up"
+      <div className="flex flex-col w-full items-center justify-center text-white p-[75px]"
         style={{
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
         }}>
-        <Image src='/tulasee_sir_img.jpg' alt="img" width={90} height={90} className="rounded-full bg-slate-800" style={{ width: 'auto', height: 'auto' }} />
-        <p className="font-pockota text-[32px]  my-2">Tulasee Rao Chintha</p>
-        <p className="text-[20px] font-pockota mb-[20px]">
+        <Image src='/tulasee_sir_img.jpg' alt="img" width={90} height={90} className="rounded-full bg-slate-800" data-aos="fade-in" style={{ width: 'auto', height: 'auto' }} />
+        <p className="font-pockota md:text-[32px] text-[28px] my-2" data-aos="fade-out">Tulasee Rao Chintha</p>
+        <p className="text-[20px] font-pockota mb-[20px]" data-aos="fade-in">
           <span>
             InpahrmD
           </span>
@@ -34,20 +33,20 @@ export default function Home() {
             YC W21
           </span>
         </p>
-        <p className="text-center font-inter text-[14px] md:text-[20px]">
+        <p className="text-center font-inter text-[14px] md:text-[20px] md:w-[70%]" data-aos="fade-up">
           A real AI Specialist(wrote ~10k lines of AI code) | Raised $8.05 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM | Advisor to TestGrid.io
         </p>
       </div>
 
       <div className="bg-[#0003] p-4 flex items-center justify-center w-full ">
-        <div className="flex flex-col text-white w-full md:w-[60%]">
-          <p className="text-[28px] md:text-[32px] font-pockota my-[2rem] text-center ">My Journey </p>
+        <div className="flex flex-col text-white w-full md:w-[60%] justify-center items-center">
+          <p className="text-[28px] md:text-[32px] font-pockota my-[2rem] text-center" data-aos="fade-in">My Journey </p>
 
-          <div data-aos="fade-up">
+          <div data-aos="fade-up" className="w-[80%] md:w-full">
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               👨‍🌾 Farmer to Pharma CTO
             </p>
-            <p className="text-[14px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] md:text-[18px] text-[] font-inter my-4">
               My journey began in a tiny sweet green little village in Southern India, aiming to farm. But life steered me towards engineering, and eventually, I became the CTO at Inpharmd. Grateful for this unexpected path that led me to where I am today.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
@@ -58,7 +57,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="fade-up" className="w-[80%] md:w-full">
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               💰Humble beginnings from zeros to billions
             </p>
@@ -67,7 +66,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mb-2" data-aos="fade-up">
+          <div className="mb-2" data-aos="fade-up" className="w-[80%] md:w-full">
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               👨‍💼 Investor onboard
             </p>
@@ -102,7 +101,7 @@ export default function Home() {
 
           </div>
 
-          <div className="mb-[3rem]" data-aos="fade-up">
+          <div className="mb-[3rem] w-[80%] md:w-full" data-aos="fade-up">
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-6 ">
               👨‍💼 Inpharmd CTO
             </p>
@@ -117,48 +116,42 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col w-full md:w-[60%] items-center justify-center text-white p-[75px]"
-        data-aos="fade-up"
+      <div className="flex flex-col w-full items-center justify-center text-white p-[75px]"
         style={{
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
         }}>
-
-        <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" >About InpharmD</span>
-        <p className="text-[14px] md:text-[20px] font-inter my-[2rem]" >
+        <div className="flex flex-col w-full md:w-[60%] items-center justify-center">
+        <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" data-aos="fade-in" data-aos="fade-in">About InpharmD</span>
+        <p className="text-[14px] md:text-[20px] font-inter my-[2rem]" data-aos="fade-up">
           <span className="text-orange-600"> InpharmD </span>  answers complex questions about drugs by using a combination of generative AI and a clinical pharmacist. Clinicians can ask questions about whether a drug is right to give a patient, dosage and side effect questions, and what to do if a drug is not on hand. Hospital committees (P&T) that decide which drugs to use can generate reports on cost-effectiveness of drugs.
         </p>
 
-        <p className="text-[14px] md:text-[20px] font-inter mb-[2rem]">
+        <p className="text-[14px] md:text-[20px] font-inter mb-[2rem]" data-aos="fade-up">
           “My co-founder Tulasee led the way in AI advancements, helping us transcribe PDFs faster than our pharmacists, though still refining accuracy. With 5,000 study abstracts as our foundation, we&apos;ve fine-tuned algorithms to match our abstracts. Testing at 94% against humans, we aim for 100% accuracy in medical data reliability. Introducing Sherlock, our answer to missed opportunities like Watson. Partnering with ASHP, we&apos;re integrating 1,300 vetted drug monographs, enabling Sherlock to provide precise answers at the point of care. Excited to revolutionize healthcare decisions with seamless AI integration”
         </p>
 
         {/* Video */}
-        <div className="flex  items-center justify-center mx-auto my-[2rem] ">
+        <div className="flex items-center justify-center mx-auto my-[2rem]" data-aos="fade-out">
           <video
-            className="xl:h-[25rem] 2xl:h-[25rem] rounded-xl"
+            className="xl:h-[25rem] 2xl:h-[25rem] rounded-3xl"
             preload="none"
             autoPlay
             loop
             muted
           >
             <source src="video.mp4" type="video/mp4" className="rounded-full" />
-            Your browser does not support the video tag.
           </video>
         </div>
 
-        <button className="font-sf_pro_display border-[4px] font-medium text-[12px] lg:text-[24px] bg-white text-black rounded-xl px-4 py-2 shadow-xl">
+        <button className="font-sf_pro_display border-[4px] font-medium text-[12px] lg:text-[24px] bg-white text-black rounded-xl px-4 py-2 shadow-xl"
+          data-aos="fade-in" >
           Patented AI Algorithm
         </button>
-
+        </div>
       </div>
 
       <CaseStudies />
-
-      <p className="text-[40px] text-white hover:underline my-4 font-pockota hidden md:block" >
-        My Journey
-      </p>
-
-    </div>
+  </div>
 
   );
 }
