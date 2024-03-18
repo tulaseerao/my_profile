@@ -66,7 +66,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mb-2" data-aos="fade-up" className="w-[80%] md:w-full">
+          <div className="mb-2 w-[80%] md:w-full" data-aos="fade-up">
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               👨‍💼 Investor onboard
             </p>
@@ -121,7 +121,7 @@ export default function Home() {
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
         }}>
         <div className="flex flex-col w-full md:w-[60%] items-center justify-center">
-        <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" data-aos="fade-in" data-aos="fade-in">About InpharmD</span>
+        <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" data-aos="fade-in">About InpharmD</span>
         <p className="text-[14px] md:text-[20px] font-inter my-[2rem]" data-aos="fade-up">
           <span className="text-orange-600"> InpharmD </span>  answers complex questions about drugs by using a combination of generative AI and a clinical pharmacist. Clinicians can ask questions about whether a drug is right to give a patient, dosage and side effect questions, and what to do if a drug is not on hand. Hospital committees (P&T) that decide which drugs to use can generate reports on cost-effectiveness of drugs.
         </p>
