@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Tulasee Rao",
+  title: "Tulasee Rao Chintha | Inpharmd, CTO | YC W21 | AI Specialist",
   description: "My Profile",
 };
 
