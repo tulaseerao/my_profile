@@ -95,7 +95,7 @@ const CaseStudies = () => {
                 <div className='text-[16px] text-black font-semibold font-sf_pro_display'>
                   Out of Pocket blog by Nikhil Krishnan
                 </div>
-                <div className='text-[12px] text-black'>Nikhil Krishnan, creator of the healthcare newsletter &quot;Out of Pocket,&quot; with over 40K healthcare provider subscribers, featured our AI and product </div>
+                <div className='text-[12px] text-black'>Nikhil Krishnan, a creator of the healthcare newsletter &quot;Out of Pocket,&quot; with over 40K healthcare provider subscribers, featured our AI and product. </div>
               </div>
 
               <div className='items-start'>
@@ -119,7 +119,7 @@ const CaseStudies = () => {
 
               <div className=' p-[0.5rem] rounded-xl mx-1 '>
                 <div className='text-[16px] text-black font-semibold font-sf_pro_display'>
-                  Pinecone Case Study:
+                  Pinecone Case Study
                 </div>
                 <div className='text-[12px] text-black'>Pinecone, the world&apos;s largest managed vector database and memory for AI products, appreciated my architecture and featured it on their blog with over 1 million views.
                 </div>
@@ -150,7 +150,7 @@ const CaseStudies = () => {
           </div>
           <div className="text-[28px] text-white text-center font-pockota font-bold"
             data-aos="fade-in">
-            People loves my work
+            People Loves My Work
           </div>
         </div>
 
@@ -254,7 +254,8 @@ const CaseStudies = () => {
 
         <Link href='https://twitter.com/tulasirao'>
           <div className='flex ml-[2rem]'>
-            <Image src={X_logo} alt='tulasee_X' className='text-[#989296] relative w-[16px] h-[16px]' />
+            <Image src={X_logo} alt='tulasee_X' className='text-[#989296] relative w-[17px] h-[17px]' />
+            <span className='ml-2'>Twitter</span>
           </div>
         </Link>
 

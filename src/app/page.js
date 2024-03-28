@@ -39,7 +39,7 @@ export default function Home() {
           </span>
         </p>
         <p className="text-center font-inter text-[14px] md:text-[20px] md:w-[70%]" data-aos="fade-up">
-          A real AI Specialist(wrote ~10k lines of AI code) | Raised $8.05 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM | Advisor to TestGrid.io
+          A real AI Specialist (wrote ~10k lines of AI code) | Raised $8.05 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM | Advisor to TestGrid.io
         </p>
       </div>
 
@@ -52,10 +52,10 @@ export default function Home() {
               👨‍🌾 Farmer to Pharma CTO
             </p>
             <p className="text-[14px] md:text-[18px] text-[] font-inter my-4">
-              My journey began in a tiny sweet green little village in Southern India, aiming to farm. But life steered me towards engineering, and eventually, I became the CTO at Inpharmd. Grateful for this unexpected path that led me to where I am today.
+              My journey began in a tiny sweet green little village in Southern India, aiming to farm. But life steered me towards engineering, and eventually, I became the CTO at InpharmD. Grateful for this unexpected path that led me to where I am today.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
-              My journey spans tech roles in India and Corporate America, leading to co-founding Inpharmd.
+              My journey spans tech roles in India and Corporate America, leading to co-founding InpharmD.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
               Built an AI-driven platform that transforms healthcare information management, offering precise responses to healthcare professionals. With evidence-based insights, we&apos;re making waves in the sector by fostering innovation and driving efficiency like never before, providing them with succinct summaries of literature.
@@ -111,10 +111,10 @@ export default function Home() {
               👨‍💼 InpharmD CTO
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
-              As CTO and Co-founder of Inpharmd, I drive technology development, harnessing AI for enhanced patient care and healthcare provider support. I lead web and AI initiatives, processing 30M medical papers, shaping industry advancements.
+              As CTO and Co-founder of InpharmD, I drive technology development, harnessing AI for enhanced patient care and healthcare provider support. I lead web and AI initiatives, processing 30M medical papers, shaping industry advancements.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter mb-6">
-              My focus spans technical strategy, team leadership, and product delivery, ensuring top-notch solutions. Committed to healthcare and AI evolution, I aim to sustain impactful innovation. Enthusiastic about our team and Inpharmd&apos;s vision, I&apos;m eager to propel positive change in healthcare through cutting-edge approaches.
+              My focus spans technical strategy, team leadership, and product delivery, ensuring top-notch solutions. Committed to healthcare and AI evolution, I aim to sustain impactful innovation. Enthusiastic about our team and InpharmD&apos;s vision, I&apos;m eager to propel positive change in healthcare through cutting-edge approaches.
             </p>
           </div>
 
