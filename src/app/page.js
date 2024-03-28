@@ -150,7 +150,9 @@ export default function Home() {
 
           <button className="font-sf_pro_display border-[4px] font-medium text-[12px] lg:text-[24px] bg-white text-black rounded-xl px-4 py-2 shadow-xl"
             data-aos="fade-in" >
-            Patented AI Algorithm
+            <a href="https://news.ycombinator.com/item?id=25957775" target="_blank">
+              Patented AI Algorithm
+            </a>
           </button>
         </div>
       </div>
