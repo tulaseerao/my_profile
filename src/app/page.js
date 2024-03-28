@@ -9,7 +9,7 @@ import logo from '../../public/yc_logo.png';
 import img from '../../public/645.png';
 import atl from '../../public/atl.png';
 import qlarant from '../../public/qlarant.png';
- 
+
 export default function Home() {
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export default function Home() {
         <p className="font-pockota md:text-[32px] text-[28px] my-2" data-aos="fade-out">Tulasee Rao Chintha</p>
         <p className="text-[20px] font-pockota mb-[20px]" data-aos="fade-in">
           <span>
-            InpahrmD
+            InpharmD
           </span>
           <span>  | </span>
           <span>
@@ -58,7 +58,7 @@ export default function Home() {
               My journey spans tech roles in India and Corporate America, leading to co-founding Inpharmd.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
-              Built an AI-driven platform transforms healthcare information management, offering precise responses to healthcare professionals. With evidence-based insights, we&apos;re making waves in the sector by fostering innovation and driving efficiency like never before, providing them with succinct summaries of literature.
+              Built an AI-driven platform that transforms healthcare information management, offering precise responses to healthcare professionals. With evidence-based insights, we&apos;re making waves in the sector by fostering innovation and driving efficiency like never before, providing them with succinct summaries of literature.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export default function Home() {
               💰Humble beginnings from zeros to billions
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
-              In 2018, I co-founded Inpharmd. With seed funding of $8.05M, we quickly reached Series A, boasting a revenue between $4-8M. We now have a vibrant community of over 50k users, including 10k active daily users.
+              In 2018, I co-founded InpharmD. With seed funding of $8.05M, we quickly reached series A, boasting a revenue between $4-8M. We now have a vibrant community of over 50k users, including 10k active daily users.
             </p>
           </div>
 
@@ -91,24 +91,24 @@ export default function Home() {
 
             <a href="https://645ventures.com/databases/portfolio/inpharmd" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
-              <Image src={img } alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
+              <Image src={img} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
             </a>
 
             <a href="https://www.atlantaventures.com/news/why-we-invested-in-inpharmd" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
-              <Image src={atl} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800"/>
+              <Image src={atl} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
             </a>
 
             <a href="https://www.qlarant.com/about/news/qlarant-capital-becomes-investor-in-inpharmd/" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
-              <Image src={qlarant} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800"/>
+              <Image src={qlarant} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
             </a>
 
           </div>
 
           <div className="mb-[3rem] w-[80%] md:w-full" data-aos="fade-up">
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-6 ">
-              👨‍💼 Inpharmd CTO
+              👨‍💼 InpharmD CTO
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
               As CTO and Co-founder of Inpharmd, I drive technology development, harnessing AI for enhanced patient care and healthcare provider support. I lead web and AI initiatives, processing 30M medical papers, shaping industry advancements.
@@ -126,37 +126,37 @@ export default function Home() {
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
         }}>
         <div className="flex flex-col w-full md:w-[60%] items-center justify-center">
-        <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" data-aos="fade-in">About InpharmD</span>
-        <p className="text-[14px] md:text-[20px] font-inter my-[2rem]" data-aos="fade-up">
-          <span className="text-orange-600"> InpharmD </span>  answers complex questions about drugs by using a combination of generative AI and a clinical pharmacist. Clinicians can ask questions about whether a drug is right to give a patient, dosage and side effect questions, and what to do if a drug is not on hand. Hospital committees (P&T) that decide which drugs to use can generate reports on cost-effectiveness of drugs.
-        </p>
+          <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" data-aos="fade-in">About InpharmD</span>
+          <p className="text-[14px] md:text-[20px] font-inter my-[2rem]" data-aos="fade-up">
+            <span className="text-orange-600"> InpharmD </span>  answers complex questions about drugs by using a combination of generative AI and a clinical pharmacist. Clinicians can ask questions about whether a drug is right to give a patient, dosage and side effect questions, and what to do if a drug is not on hand. Hospital committees (P&T) that decide which drugs to use can generate reports on cost-effectiveness of drugs.
+          </p>
 
-        <p className="text-[14px] md:text-[20px] font-inter mb-[2rem]" data-aos="fade-up">
-          “My co-founder Tulasee led the way in AI advancements, helping us transcribe PDFs faster than our pharmacists, though still refining accuracy. With 5,000 study abstracts as our foundation, we&apos;ve fine-tuned algorithms to match our abstracts. Testing at 94% against humans, we aim for 100% accuracy in medical data reliability. Introducing Sherlock, our answer to missed opportunities like Watson. Partnering with ASHP, we&apos;re integrating 1,300 vetted drug monographs, enabling Sherlock to provide precise answers at the point of care. Excited to revolutionize healthcare decisions with seamless AI integration”
-        </p>
+          <p className="text-[14px] md:text-[20px] font-inter mb-[2rem]" data-aos="fade-up">
+            “My co-founder Tulasee led the way in AI advancements, helping us transcribe PDFs faster than our pharmacists, though still refining accuracy. With 5,000 study abstracts as our foundation, we&apos;ve fine-tuned algorithms to match our abstracts. Testing at 94% against humans, we aim for 100% accuracy in medical data reliability. Introducing Sherlock, our answer to missed opportunities like Watson. Partnering with ASHP, we&apos;re integrating 1,300 vetted drug monographs, enabling Sherlock to provide precise answers at the point of care. Excited to revolutionize healthcare decisions with seamless AI integration”
+          </p>
 
-        {/* Video */}
-        <div className="flex items-center bg-[rgb(227,247,248)] rounded-xl justify-center mx-auto my-[2rem]" data-aos="fade-out">
-          <video
-            className="xl:h-[25rem] 2xl:h-[25rem] rounded-2xl"
-            preload="none"
-            autoPlay
-            loop
-            muted
-          >
-            <source src="video.mp4" type="video/mp4" className="rounded-full" />
-          </video>
-        </div>
+          {/* Video */}
+          <div className="flex items-center bg-[rgb(227,247,248)] rounded-xl justify-center mx-auto my-[2rem]" data-aos="fade-out">
+            <video
+              className="xl:h-[25rem] 2xl:h-[25rem] rounded-2xl"
+              preload="none"
+              autoPlay
+              loop
+              muted
+            >
+              <source src="video.mp4" type="video/mp4" className="rounded-full" />
+            </video>
+          </div>
 
-        <button className="font-sf_pro_display border-[4px] font-medium text-[12px] lg:text-[24px] bg-white text-black rounded-xl px-4 py-2 shadow-xl"
-          data-aos="fade-in" >
-          Patented AI Algorithm
-        </button>
+          <button className="font-sf_pro_display border-[4px] font-medium text-[12px] lg:text-[24px] bg-white text-black rounded-xl px-4 py-2 shadow-xl"
+            data-aos="fade-in" >
+            Patented AI Algorithm
+          </button>
         </div>
       </div>
 
       <CaseStudies />
-  </div>
+    </div>
 
   );
 }

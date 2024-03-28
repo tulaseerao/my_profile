@@ -10,7 +10,7 @@ import aws_logo from '../../../public/aws_logo.png'
 import drugs_ai from '../../../public/drugs_ai.png'
 import pinecone from '../../../public/pinecone.png'
 import X_logo from '../../../public/X_logo.png'
-import name_img from '../../../public/name.png' 
+import name_img from '../../../public/name.png'
 import pat_harper from '../../../public/pat_harper.png'
 import ashish from '../../../public/ashish.png'
 import paul_brobson from '../../../public/paul_brobson.png'
@@ -95,7 +95,7 @@ const CaseStudies = () => {
                 <div className='text-[16px] text-black font-semibold font-sf_pro_display'>
                   Out of Pocket blog by Nikhil Krishnan
                 </div>
-                <div className='text-[12px] text-black'>Nikhil Krishna, creator of the healthcare newsletter &quot;Out of Pocket,&quot; with over 40K healthcare provider subscribers, featured our AI and product </div>
+                <div className='text-[12px] text-black'>Nikhil Krishnan, creator of the healthcare newsletter &quot;Out of Pocket,&quot; with over 40K healthcare provider subscribers, featured our AI and product </div>
               </div>
 
               <div className='items-start'>
@@ -121,7 +121,7 @@ const CaseStudies = () => {
                 <div className='text-[16px] text-black font-semibold font-sf_pro_display'>
                   Pinecone Case Study:
                 </div>
-                <div className='text-[12px] text-black'>Pinecone, the world&apos;s largest managed vector database and memory for AI products, appreciated my architecture and featured it on their blog with over 1 million.
+                <div className='text-[12px] text-black'>Pinecone, the world&apos;s largest managed vector database and memory for AI products, appreciated my architecture and featured it on their blog with over 1 million views.
                 </div>
               </div>
 
@@ -165,7 +165,7 @@ const CaseStudies = () => {
             </div>
 
             <div className='mb-2 px-2 py-2 mt-4 text-white rounded-xl flex items-center'>
-              <Image src={ashish} alt='inpharamd ai img' className='rounded-full m-2 w-[70px] h-[70px]'/>
+              <Image src={ashish} alt='inpharamd ai img' className='rounded-full m-2 w-[70px] h-[70px]' />
               <div className='flex flex-col ml-2 text-left'>
                 <span className='font-sf_pro_display text-[16px]'>Ashish Advani</span>
                 <span className='font-sf_pro_display text-[20px]'>Founder, InpharmD</span>
@@ -182,7 +182,7 @@ const CaseStudies = () => {
             </div>
 
             <div className='mb-2 px-2 py-2 mt-4 text-white rounded-xl flex items-center'>
-              <Image src={pat_harper} alt='inpharamd ai img' className='rounded-full m-2 w-[70px] h-[70px]'/>
+              <Image src={pat_harper} alt='inpharamd ai img' className='rounded-full m-2 w-[70px] h-[70px]' />
               <div className='flex flex-col ml-2 text-left'>
                 <span className='font-sf_pro_display text-[16px]'>Pat Harper</span>
                 <span className='font-sf_pro_display text-[20px]'>CTO, Catalis</span>
@@ -200,7 +200,7 @@ const CaseStudies = () => {
             </div>
 
             <div className='mb-2 px-2 py-2 mt-4 text-white rounded-xl flex items-center'>
-              <Image src={paul_brobson} alt='paul_brobson img' className='rounded-full m-2 w-[70px] h-[70px]'/>
+              <Image src={paul_brobson} alt='paul_brobson img' className='rounded-full m-2 w-[70px] h-[70px]' />
               <div className='flex flex-col ml-2 text-left'>
                 <span className='font-sf_pro_display text-[16px]'>Paul Brobson</span>
                 <span className='font-sf_pro_display text-[20px]'>Founder, Trusted Sale, Inc.</span>
@@ -223,11 +223,11 @@ const CaseStudies = () => {
           }}>
           <div className='flex flex-col'>
             <div className='flex items-center m-4'>
-              <Image src={name_img} alt="name_img" className="rounded-full w-[200px] h-[100px]"/>
+              <Image src={name_img} alt="name_img" className="rounded-full w-[200px] h-[100px]" />
             </div>
             <div className='mt-8 lg:mt-28'>
               <p className="text-[14px] lg:text-[25px] font-bold w-1/2 font-pockota mb-2 justify-center">
-                Busy building tools for users Don&apos;t be a boilerplate programmer.
+                Stay busy building tools for users. Don&apos;t be a boilerplate programmer.
                 Instead, build tools for users and other programmers.
                 Take historical note of textile and steel industries:
                 do you want to build machines and tools, or do you want to operate those machines.
