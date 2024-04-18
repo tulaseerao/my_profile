@@ -23,12 +23,12 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center bg-[#151718] cursor-default">
 
-      <div className="flex flex-col w-full items-center justify-center text-white p-[75px]"
+      <div className="flex flex-col w-full items-center justify-center text-white p-[55px] sm:p-[75px]"
         style={{
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
         }}>
         <Image src={sir} alt="img" className="rounded-full h-[90px] w-[90px] bg-slate-800" data-aos="fade-in" />
-        <p className="font-pockota md:text-[32px] text-[28px] my-2" data-aos="fade-out">Tulasee Rao Chintha</p>
+        <p className="font-pockota md:text-[32px] text-[24px] sm:text-[28px] my-2" data-aos="fade-out">Tulasee Rao Chintha</p>
         <p className="text-[20px] font-pockota mb-[20px]" data-aos="fade-in">
           <span>
             InpharmD
@@ -39,7 +39,7 @@ export default function Home() {
           </span>
         </p>
         <p className="text-center font-inter text-[14px] md:text-[20px] md:w-[70%]" data-aos="fade-up">
-          A real AI Specialist (wrote ~10k lines of AI code) | Raised $8.05 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM | Advisor to TestGrid.io
+          A real AI Specialist (wrote ~10k lines of AI code) | Raised $8.05 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM 
         </p>
       </div>
 
@@ -51,13 +51,13 @@ export default function Home() {
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               👨‍🌾 Farmer to Pharma CTO
             </p>
-            <p className="text-[14px] md:text-[18px] text-[] font-inter my-4">
+            <p className="text-[14px] text-justify md:text-[18px] text-[] font-inter my-4">
               My journey began in a tiny sweet green little village in Southern India, aiming to farm. But life steered me towards engineering, and eventually, I became the CTO at InpharmD. Grateful for this unexpected path that led me to where I am today.
             </p>
             <p className="text-[14px] md:text-[18px] font-inter my-4">
               My journey spans tech roles in India and Corporate America, leading to co-founding InpharmD.
             </p>
-            <p className="text-[14px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] text-justify md:text-[18px] font-inter my-4">
               Built an AI-driven platform that transforms healthcare information management, offering precise responses to healthcare professionals. With evidence-based insights, we&apos;re making waves in the sector by fostering innovation and driving efficiency like never before, providing them with succinct summaries of literature.
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function Home() {
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               💰Humble beginnings from zeros to billions
             </p>
-            <p className="text-[14px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] text-justify md:text-[18px] font-inter my-4">
               In 2018, I co-founded InpharmD. With seed funding of $8.05M, we quickly reached series A, boasting a revenue between $4-8M. We now have a vibrant community of over 50k users, including 10k active daily users.
             </p>
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-2 ">
               👨‍💼 Investor onboard
             </p>
-            <p className="text-[14px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] text-justify md:text-[18px] font-inter my-4">
               Our recent funding round was backed by some of the most prestigious investors - 645 Ventures, Atlanta Ventures, Y Combinator, & Qlarant Capital
             </p>
           </div>
@@ -110,10 +110,10 @@ export default function Home() {
             <p className="text-[20px] md:text-[22px] font-sf_pro_display font-semibold my-6 ">
               👨‍💼 InpharmD CTO
             </p>
-            <p className="text-[14px] md:text-[18px] font-inter my-4">
+            <p className="text-[14px] text-justify md:text-[18px] font-inter my-4">
               As CTO and Co-founder of InpharmD, I drive technology development, harnessing AI for enhanced patient care and healthcare provider support. I lead web and AI initiatives, processing 30M medical papers, shaping industry advancements.
             </p>
-            <p className="text-[14px] md:text-[18px] font-inter mb-6">
+            <p className="text-[14px] text-justify md:text-[18px] font-inter mb-6">
               My focus spans technical strategy, team leadership, and product delivery, ensuring top-notch solutions. Committed to healthcare and AI evolution, I aim to sustain impactful innovation. Enthusiastic about our team and InpharmD&apos;s vision, I&apos;m eager to propel positive change in healthcare through cutting-edge approaches.
             </p>
           </div>
@@ -121,17 +121,17 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col w-full items-center justify-center text-white p-[75px]"
+      <div className="flex flex-col w-full items-center justify-center text-white p-[55px] sm:p-[75px]"
         style={{
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
         }}>
         <div className="flex flex-col w-full md:w-[60%] items-center justify-center">
           <span className="text-[28px] md:text-[32px] font-pockota my-[2rem]" data-aos="fade-in">About InpharmD</span>
-          <p className="text-[14px] md:text-[20px] font-inter my-[2rem]" data-aos="fade-up">
+          <p className="text-[14px] text-justify md:text-[20px] font-inter my-[2rem]" data-aos="fade-up">
             <span className="text-orange-600"> InpharmD </span>  answers complex questions about drugs by using a combination of generative AI and a clinical pharmacist. Clinicians can ask questions about whether a drug is right to give a patient, dosage and side effect questions, and what to do if a drug is not on hand. Hospital committees (P&T) that decide which drugs to use can generate reports on cost-effectiveness of drugs.
           </p>
 
-          <p className="text-[14px] md:text-[20px] font-inter mb-[2rem]" data-aos="fade-up">
+          <p className="text-[14px] text-justify md:text-[20px] font-inter mb-[2rem]" data-aos="fade-up">
             “My co-founder Tulasee led the way in AI advancements, helping us transcribe PDFs faster than our pharmacists, though still refining accuracy. With 5,000 study abstracts as our foundation, we&apos;ve fine-tuned algorithms to match our abstracts. Testing at 94% against humans, we aim for 100% accuracy in medical data reliability. Introducing Sherlock, our answer to missed opportunities like Watson. Partnering with ASHP, we&apos;re integrating 1,300 vetted drug monographs, enabling Sherlock to provide precise answers at the point of care. Excited to revolutionize healthcare decisions with seamless AI integration”
           </p>
 
