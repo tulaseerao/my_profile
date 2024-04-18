@@ -29,11 +29,11 @@ const CaseStudies = () => {
 
         {/* 4 cards */}
         <div className='flex items-center justify-center flex-col'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-[2rem] p-4 text-white justify-center items-center'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-[2rem] p-4 text-white justify-center items-center'>
 
             {/* card 1 */}
             <div className='flex flex-col h-[24rem] w-[300px] lg:w-[380px] lg:h-[444px] 
-            p-[1rem] rounded-2xl justify-center mb-[3rem] bg-white'
+            p-[1rem] rounded-2xl justify-center sm:mb-[3rem] bg-white'
               data-aos="fade-up">
 
               <Image src={inpharmd_ai} alt='inpharamd_ai_img' className='rounded-3xl px-[10px] h-[200px]' />
@@ -61,7 +61,7 @@ const CaseStudies = () => {
 
             {/* card 2 */}
             <div className='flex flex-col w-[300px] h-[24rem] lg:w-[380px] lg:h-[444px] 
-            p-[1rem]  rounded-2xl justify-center mb-[3rem] bg-white'
+            p-[1rem]  rounded-2xl justify-center sm:mb-[3rem] bg-white'
               data-aos="fade-up">
 
               <Image src={aws_logo} alt='aws img' className='rounded-3xl px-[10px] h-[200px]' />
@@ -86,7 +86,7 @@ const CaseStudies = () => {
 
             {/* card 3 */}
             <div className='flex flex-col w-[300px] h-[24rem] lg:w-[380px] lg:h-[444px] 
-            p-[1rem] rounded-2xl justify-center mb-[3rem] bg-white'
+            p-[1rem] rounded-2xl justify-center sm:mb-[3rem] bg-white'
               data-aos="fade-up">
 
               <Image src={drugs_ai} alt='drugs_ai_img' className='rounded-3xl px-[10px] h-[200px]' />
@@ -112,7 +112,7 @@ const CaseStudies = () => {
 
             {/* card 4 */}
             <div className='flex flex-col w-[300px] lg:w-[380px] lg:h-[444px] 
-            p-[1rem] h-[24rem] rounded-2xl justify-center mb-[3rem] bg-white'
+            p-[1rem] h-[24rem] rounded-2xl justify-center sm:mb-[3rem] bg-white'
               data-aos="fade-up">
 
               <Image src={pinecone} alt='pinecone_img' className='rounded-3xl px-[10px] h-[200px]' />
