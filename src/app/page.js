@@ -89,7 +89,7 @@ export default function Home() {
               <Image src={logo} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
             </a>
 
-            <a href="https://645ventures.com/databases/portfolio/inpharmd" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
+            <a href="https://645ventures.com/homepage-databases/inpharmd" target="_blank" className='flex items-center justify-center border-[2px] border-gray-700 p-4 xl:p-[2rem] rounded-xl
             bg-gradient-to-b from-[#252427] to-[#424242] shadow-xl cursor-pointer'>
               <Image src={img} alt="img" className="rounded-full w-[50px] h-[50px] bg-slate-800" />
             </a>
