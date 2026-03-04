@@ -31,7 +31,7 @@ export default function Home() {
         <p className="font-pockota md:text-[32px] text-[24px] sm:text-[28px] my-2" data-aos="fade-out">Tulasee Rao Chintha</p>
         <p className="text-[20px] font-pockota mb-[20px]" data-aos="fade-in">
           <span>
-            InpharmD
+            Co-founder and CTO of InpharmD
           </span>
           <span>  | </span>
           <span>
@@ -39,7 +39,7 @@ export default function Home() {
           </span>
         </p>
         <p className="text-center font-inter text-[14px] md:text-[20px] md:w-[70%]" data-aos="fade-up">
-          A real AI Specialist (wrote ~10k lines of AI code) | Raised $8.05 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM 
+          A real AI Specialist (wrote ~10k lines of AI code) | Raised $12 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM 
         </p>
       </div>
 
