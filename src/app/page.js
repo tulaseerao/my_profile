@@ -39,7 +39,7 @@ export default function Home() {
           </span>
         </p>
         <p className="text-center font-inter text-[14px] md:text-[20px] md:w-[70%]" data-aos="fade-up">
-          A real AI Specialist (wrote ~10k lines of AI code) | Raised $12 millions | AI Patent Holder | LLM&apos;s Expert Built 40 Billion parameters LLM 
+          A real AI Specialist (wrote ~10k lines of AI code) | Raised $12 millions | AI Pending Patent | LLM&apos;s Expert Built 40 Billion parameters LLM 
         </p>
       </div>
 
